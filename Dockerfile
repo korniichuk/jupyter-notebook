@@ -7,3 +7,6 @@
 FROM jupyter/minimal-notebook:latest
 
 MAINTAINER Ruslan Korniichuk <ruslan.korniichuk@gmail.com>
+
+# Now switch to jovyan for all conda installs
+USER jovyan
