@@ -3,3 +3,7 @@
 # Full Description: The base image for korniichuk/jupyter-k3d-notebook Docker
 # image.
 # Version: 0.1a1
+
+FROM jupyter/minimal-notebook:latest
+
+MAINTAINER Ruslan Korniichuk <ruslan.korniichuk@gmail.com>
