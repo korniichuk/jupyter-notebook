@@ -35,3 +35,7 @@ RUN apt-get install -y npm
 
 # Install bower
 RUN npm install -g bower
+
+# Install jupyter-pip
+RUN pip install jupyter-pip
+RUN /opt/conda/envs/python2/bin/pip install jupyter-pip
